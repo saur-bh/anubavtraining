@@ -1,0 +1,71 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:f="sap.ui.layout.form"
+	xmlns="sap.m" controllerName="ibm.fin.ar.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Second View" showNavButton="true" navButtonPress="onBack">
+		<content>
+			<!--<Button icon="sap-icon://arrow-left" text="Back" press="onBack"></Button>-->
+			<ObjectHeader title="{name}" intro="{healthBenefit}" icon="{image}"
+						  number="{price}" numberUnit="{currency}"></ObjectHeader>
+			<IconTabBar>
+				<items>
+					<IconTabFilter key="idMore" text="More Details" icon="sap-icon://display-more">
+						<core:Fragment type="XML" fragmentName="ibm.fin.ar.fragments.simple"></core:Fragment>
+					</IconTabFilter>
+					<IconTabFilter key="idSupp" text="Suppliers" icon="sap-icon://supplier">
+						<Table id="idTable" items="{/Supplier}">
+							<headerToolbar>
+								<Toolbar>
+									<ToolbarSpacer />
+									<Button icon="sap-icon://settings" press="onSettings"></Button>
+								</Toolbar>
+							</headerToolbar>
+							<columns>
+								<Column>
+									<Label text="Name"></Label>
+								</Column>
+								<Column>
+									<Label text="Contact Person"></Label>
+								</Column>
+								<Column>
+									<Label text="Since When"></Label>
+								</Column>
+								<Column>
+									<Label text="City/Country"></Label>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem>
+									<cells>
+										<Text text="{name}"></Text>
+										<Input value="{contactPerson}"></Input>
+										<Text text="{sinceWhen}"></Text>
+										<Input value="{city}" showValueHelp="true" valueHelpRequest="onF4Help"></Input>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</IconTabFilter>
+					<IconTabFilter key="idCity" text="Cities" icon="sap-icon://home">
+						<Select items="{/Cities}">
+							<core:Item key="{name}" text="{name}"></core:Item>
+						</Select>
+						<ComboBox items="{/Cities}" >
+							<core:Item key="{name}" text="{name}"></core:Item>
+						</ComboBox>
+						<MultiComboBox items="{/Cities}" selectionChange="onSelect">
+							<core:Item key="{name}" text="{name}"></core:Item>
+						</MultiComboBox>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer></ToolbarSpacer>
+				<Button text="Save" type="Accept" press="onSave"></Button>
+				<Button text="Cancel" type="Reject"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

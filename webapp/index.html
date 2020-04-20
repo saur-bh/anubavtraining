@@ -1,0 +1,29 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Index Title</title>
+	<script id="sap-ui-bootstrap"
+		src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_bluecrystal"
+		data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='{"ibm.fin.ar": "./"}'
+		data-sap-ui-xx-bindingSyntax="complex"
+		>
+	</script>
+	
+				
+		<script>
+	
+			var oCompContainer = new sap.ui.core.ComponentContainer({
+				name: "ibm.fin.ar"
+			});
+			
+			oCompContainer.placeAt("myjs");
+			
+		</script>
+	</head>
+	<body class="sapUiBody">
+		<div id="myjs"></div>
+		<div id="myBtn"></div>
+	</body>
+</html>

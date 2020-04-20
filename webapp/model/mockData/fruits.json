@@ -1,0 +1,503 @@
+{
+	"fruits": [
+		{
+			"name": "Persimmons",
+			"type": "Fruit",
+			"healthBenefit": "High in Fiber, Vitamin A, Vitamin C, Vitamin E, Vitamin K, Vitamin B6, Potassium, Copper, Manganese. Persimmons are also a good source of thiamin (B1), riboflavin (B2), folate, magnesium and phosphorus",
+			"color": "Yellow",
+			"price": "0.95",
+			"currency": "USD",
+			"image": "https://greenblender.com/smoothies/wp-content/uploads/2016/10/The-Difference-Between-Hachiya-And-Fuyu-Persimmons-by-GreenBlender-960x540.jpg",
+			"status": "Not Available",
+			"Notes": "Persimmons can be eaten fresh, dried or cooked and are commonly used around the world in jellies, drinks, pies, curries and puddings. Not only are persimmons tasty, they’re packed with nutrients that can benefit your health in several ways.",
+			"suppliedBy": "Yoshino Products"
+		},
+		{
+			"name": "Grapefruit",
+			"type": "Citrus",
+			"healthBenefit": "Grapefruit has also been investigated in cancer medicine pharmacodynamics. Its inhibiting effect on the metabolism of some drugs may allow smaller doses to be used, which can help to reduce costs. Used as Stain remover for porcelain and enamel.",
+			"color": "Orange",
+			"price": "0.5",
+			"currency": "USD",
+			"image": "https://en.wikipedia.org/wiki/Grapefruit#/media/File:Grapefruit-Whole-&-Split.jpg",
+			"status": "Available",
+			"Notes": "Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between two introduced species – sweet orange (C. sinensis), and pomelo (or shaddock) (C. maxima) – both of which were introduced from Asia in the seventeenth century.[1] When found, it was nicknamed the forbidden fruit Frequently, it is misidentified as the very similar parent species, pomelo.",
+			"suppliedBy": "Lakshmi Mittal Enterprises"
+		},
+		{
+			"name": "Orange",
+			"type": "Citrus",
+			"healthBenefit": "Cholesterol problems, Blood pressure, Weight loss, Healthy immune system, Healthy skin, Antioxidant",
+			"color": "Orange",
+			"price": "0.25",
+			"currency": "USD",
+			"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVRWwyJPLtkyxR8ZErSXMM7Uyur7frcbj3DSmvCLoNF88lx4ku",
+			"status": "Available",
+			"Notes": " usually eaten plain or in fruit salads",
+			"suppliedBy": "Farm Fresh"
+		},		
+		{
+			"name": "Lemons",
+			"type": "Citrus",
+			"healthBenefit": "vitamin C, folic acid , potassium, pectin,  thiamin, riboflavin, niacin, vitamin B-6, folate, and vitamin A. Used in traditional remedies because of their health benefits, contains antioxidants.",
+			"color": "Yellow",
+			"price": "0.10",
+			"currency": "USD",
+			"image": "https://target.scene7.com/is/image/Target/GUEST_9478574e-3eae-4357-b81a-a20676f6e6fa?wid=488&hei=488&fmt=pjpeg",
+			"status": "Available",
+			"Notes": "Use the juice of a lemon to flavor drinking water or squeeze over a salad or fish. Try adding lemon juice to boiling water with a teaspoon of honey to help soothe a sore throat. It is also possible to eat the rind of organic lemons. Some people use the rind in recipes",
+			"suppliedBy": "Limca"
+		},
+		{
+			"name": "Strawberries",
+			"type": "Berry",
+			"healthBenefit": "Strawberries contain thiamin, riboflavin, niacin, folate, and vitamins B-6, A and K",
+			"color": " bright red",
+			"price": "0.11",
+			"currency": "USD",
+			"image": "https://target.scene7.com/is/image/Target/GUEST_9478574e-3eae-4357-b81a-a20676f6e6fa?wid=488&hei=488&fmt=pjpeg",
+			"status": "Available",
+			"Notes": "Strawberries are a juicy, red fruit with a high water content. The seeds provide plenty of dietary fiber per serving. Strawberries contain many healthful vitamins and minerals.",
+			"suppliedBy": "Berry Heaven"
+		},
+		{
+			"name": "Blackberries",
+			"type": "Berry",
+			"healthBenefit": "Rich in Fiber, calcium, magnesium, potassium, vitamin C",
+			"color": " bright red",
+			"price": "0.05",
+			"currency": "USD",
+			"image": "https://target.scene7.com/is/image/Target/GUEST_9478574e-3eae-4357-b81a-a20676f6e6fa?wid=488&hei=488&fmt=pjpeg",
+			"status": "Available",
+			"Notes": "People can eat blackberries fresh, add them to yogurt for breakfast or dessert, or add frozen blackberries to smoothies.",
+			"suppliedBy": "Asian Mart"
+		},
+		{
+			"name": "Blueberries",
+			"type": "Berry",
+			"healthBenefit": "King of Antioxidant Foods - Rich in Fiber, Vitamin C, Vitamin K, Manganese, Blueberries Reduce DNA Damage, Which May Help Protect Against Aging and Cancer. Protect Cholesterol in Your Blood From Becoming Damaged, May Lower Blood Pressure, May Help Prevent Heart Disease, , Help Maintain Brain Function and Improve Memory, Anthocyanins in Blueberries May Have Anti-Diabetes Effects, May Help Fight Urinary Tract Infections, Blueberries May Reduce Muscle Damage After Strenuous Exercise",
+			"color": " bright red",
+			"price": "0.05",
+			"currency": "USD",
+			"image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blueberries-1527711083.jpg",
+			"status": "Available",
+			"Notes": "Blueberries are incredibly healthy and nutritious. They boost your heart health, brain function and numerous other aspects of your body. What’s more, they’re sweet, colorful and easily enjoyed either fresh or frozen.",
+			"suppliedBy": "Freshest Inc"
+
+		},
+		{
+			"name": "Apples",
+			"type": "Fruit",
+			"healthBenefit": "Apples are high-fiber fruits, meaning that eating them could boost heart health and promote weight loss. The pectin in apples helps to maintain good gut health.",
+			"color": " bright red",
+			"price": "0.19",
+			"currency": "USD",
+			"image": "https://www.dpi.nsw.gov.au/__data/assets/image/0009/714078/hot_apl_pear_265.jpg",
+			"status": "Available",
+			"Notes": "Apples also have high levels of quercetin, a flavonoid which may have anti-cancer properties",
+			"suppliedBy": "Junaid Brothers"
+		},
+		{
+			"name": "Pomegranate",
+			"type": "Berry ",
+			"healthBenefit": "Many people consider pomegranates to be a 'superfood.' They are high in antioxidants and polyphenols, which help to combat the oxidative stress that can cause disease in the body.",
+			"color": " bright red",
+			"price": "1.24",
+			"currency": "USD",
+			"image": "https://www.simplyrecipes.com/wp-content/uploads/2013/11/how-to-cut-pomegranate-vertical-a-1800.jpg",
+			"status": "Available",
+			"Notes": "One pomegranate also contains 46.2 micrograms (mcg) of the recommended 80 mcg daily allowance of vitamin K. This vitamin is essential for strong bones and healthy blood cells",
+			"suppliedBy": "Trupti Foods"
+		},
+		{
+			"name": "Pineapple",
+			"type": "Fruit",
+			"healthBenefit": "Rich in fiber, potassium, vitamin C, B6 , Manganese, Copper, Thiamin, Folate, Niacin, Pantothenic acid, Riboflavin. They also contain trace amounts of vitamins A and K, phosphorus, zinc and calcium",
+			"color": "Yellow",
+			"price": "1.55",
+			"currency": "USD",
+			"image": "http://images6.fanpop.com/image/photos/34700000/Pineapple-fruit-34733519-1600-1200.jpg",
+			"status": "Available",
+			"Notes": " Contains Disease-Fighting Antioxidants. Its Enzymes Can Ease Digestion. Boost Immunity and Suppress Inflammation. May Ease Symptoms of Arthritis. May Speed Recovery After Surgery or Strenuous Exercise. Reduce inflammation and promote healthy tissue growth",
+			"suppliedBy": "Mercado marimar"
+		},
+		{
+			"name": "Bananas",
+			"type": "Fruit",
+			"healthBenefit": "Bananas are well known for their high potassium content. A medium banana contains 422 mg of the adequate adult intake of 4,500 mg of potassium. Potassium helps the body control heart rate and blood pressure.",
+			"color": "Yellow",
+			"price": "0.14",
+			"currency": "USD",
+			"image": "https://cdn1.medicalnewstoday.com/content/images/headlines/271/271157/bananas.jpg",
+			"status": "Available",
+			"Notes": " A banana is an excellent fruit to use to thicken a smoothie. People can also use them in baking as a natural sweetener or to make banana bread or pancakes. ",
+			"suppliedBy": "Mahindra"
+		},
+		{
+			"name": "Avocado",
+			"type": "Fruit",
+			"healthBenefit": "Many people refer to avocados as a superfood because of their healthful qualities. Avocados are rich in oleic acid, a monounsaturated fat which helps lower cholesterol levels. The American Heart Association say that maintaining healthy cholesterol levels with healthful fats could reduce the risk of heart disease and stroke. Like bananas, avocados are rich in potassium. They also contain lutein, an antioxidant which is important for healthy eyes and skin.",
+			"color": "Green",
+			"price": "0.34",
+			"currency": "USD",
+			"image": "https://www.wired.com/wp-content/uploads/2017/01/avocado-109231343-1024x683.jpg",
+			"status": "Available",
+			"Notes": " People can add avocado to salads, or mix with lime, garlic, and tomatoes to make guacamole. Add avocado to smoothies or hummus, or use avocado instead of other fats in baking.",
+			"suppliedBy": "Reliance"
+		},
+		{
+			"name": "Aloe Vera",
+			"type": "Medicinal Plant",
+			"healthBenefit": "Antioxidant and antibacterial properties, Accelerates the healing of burns, Reduces dental plaque, Helps treat mouth ulcers and canker sores, Reduces constipation, May improve skin and prevent wrinkles, to lowers blood sugar levels",
+			"color": "Green",
+			"price": "0.31",
+			"currency": "USD",
+			"image": "https://cdn.pixabay.com/photo/2017/08/10/14/40/aloe-vera-2623317__340.jpg",
+			"status": "Available",
+			"Notes": "Aloe vera may help with blood sugar management, but more research is needed. Ingesting Aloe vera supplements in the long term could also be hazardous.",
+			"suppliedBy": "Sun Enterprises"
+		},
+
+		{
+			"name": "Watermelon",
+			"type": "Melon",
+			"color": "Green",
+			"healthBenefit": "Antioxidant and antibacterial properties, Accelerates the healing of burns, Reduces dental plaque, Helps treat mouth ulcers and canker sores, Reduces constipation, May improve skin and prevent wrinkles, to lowers blood sugar levels",
+			"price": "1.31",
+			"currency": "USD",
+			"image": "https://cdn0.wideopeneats.com/wp-content/uploads/2017/08/watermelon-facts.png",
+			"status": "Available",
+			"Notes": "Watermelon is a surprisingly healthy fruit. It has a high water content and also delivers many other important nutrients, including lycopene and vitamin C.",
+			"suppliedBy": "Sahil Enterprises"
+		},
+
+		{
+			"name": "Cantaloupe",
+			"type": "Melon",
+			"color": "Yellow",
+			"healthBenefit": "High in Beta Carotene, Vitamin C, Folate, Fiber, Potassium, vitamin K, niacin, choline, calcium, magnesium, phosphorous, zinc, copper, manganese, selenium",
+			"price": "0.24",
+			"currency": "USD",
+			"image": "https://www.producemarketguide.com/sites/default/files/Commodities.tar/Commodities/cantaloupe_commodity-page.png",
+			"status": "Available",
+			"Notes": "It’s nutritious, delicious, and versatile. If you typically buy watermelon or honeydew melon and shy away from cantaloupe, you’re missing out. At 60 calories and no fat per 1-cup serving, adding cantaloupe to your diet arsenal is a smart way to get potent nutrients and sweetness into your healthy eating plan.",
+			"suppliedBy": "Chin Xin Ling Market"
+		},
+
+		{
+			"name": "HoneyDew",
+			"type": "Melon",
+			"color": "Light Green",
+			"healthBenefit": "Fiber, Protein, Fat, Vitamin C, Vitamin B6, Folate, Vitamin K, Potassium, Magnesium, May Help Reduce Blood Pressure, Contains Nutrients Vital to Bone Health, May Improve Blood Sugar Control, Rich in Electrolytes and Water, Support Healthy Skin, Boost Your Immune System, Promote Proper Digestion, Support Vision and Eye Health",
+			"price": "0.13",
+			"currency": "USD",
+			"image": "https://pixfeeds.com/images/misc/elements/fruits/melon/1280-19479323.jpg",
+			"status": "Available",
+			"Notes": "Honeydew is full of vitamins, minerals and other health-promoting plant compounds. Eating this type of melon could have several health benefits, mainly due to its rich nutrient content",
+			"suppliedBy": "Al Hasan Brothers"
+		},
+
+		{
+			"name": "sapota",
+			"type": "Fruit",
+			"color": "Brown",
+			"healthBenefit": "Rich in Vitamin E, A and C. Improved Digestion, Perfect anti-inflammatory agent, Cures Cold and Cough, Good for the Bones, Acts as an Antioxidant .",
+			"price": "0.75",
+			"currency": "USD",
+			"image": "https://www.beingtheparent.com/wp-content/uploads/2018/09/Sapota-During-Pregnancy.jpg",
+			"status": "Available",
+			"Notes": "This winter, you might want to include another fruit in your diet. Not just for it’s taste, but also for the health benefits. Sapota (Chikoo) also known as Sapodilla, which is grown abundantly in Karnataka, can easily give all the exotic fruits a run for their money, considering the health benefits. Chikoo not just strengthens the intestines, but also boosts immunity and prevents various bacterial infections due to the presence of vitamin C. ",
+			"suppliedBy": "sebastian Market"
+		},
+
+		{
+			"name": "Guava",
+			"type": "Fruit",
+			"color": "Green",
+			"healthBenefit": "May Help Lower Blood Sugar Levels, Boost Heart Health, May Help Relieve Painful Symptoms of Menstruation, Benefit Your Digestive System, Aid Weight Loss, Boost Your Immunity,Good for Your Skin",
+			"price": "0.23",
+			"currency": "USD",
+			"image": "http://spiceshopmoncton.ca/wp-content/uploads/2017/02/Guava-03.jpg",
+			"status": "Available",
+			"Notes": "Guavas are incredibly delicious and packed with nutrients. This tropical fruit is low in calories, loaded with fiber, and an excellent addition to a healthy diet. Many studies also support the benefits of guava leaf extracts, which are taken as dietary supplements. Together, guava fruit and leaf extracts may boost your heart health, digestion, and immune system, in addition to other benefits.",
+			"suppliedBy": "Smith Market"
+		},
+
+		{
+			"name": "Custard Apples",
+			"type": "Fruit",
+			"color": "Green",
+			"healthBenefit": "Rich in anti-oxidants like vitamin C, which help get rid of free radicals from the body. It is also rich in calcium, magnesium, iron, niacin and potassium.Promotes healthy Skin and Hair, Healthy Weight.Helps prevents Heart Attacks, Aids Digestion, Excellent For Diabetics, Controls Blood Pressure, Reduces Cholesterol, Treating Anemia, Prevents Asthma",
+			"price": "0.31",
+			"currency": "USD",
+			"image": "https://thumbs.dreamstime.com/z/sugar-apple-custard-apple-annona-sweetsop-white-background-sugar-apple-annona-squamosa-111474156.jpg",
+			"status": "Available",
+			"Notes": "Custard apples, also well known as sharifa or sitaphal in Hindi. It is also known as chermoyas and native to South America, West Indies and some parts of Asia. The fruit is soft and chewy with a hard exterior. The flesh is white in color and has a creamy texture. The pulp coats black shiny seeds that are not consumed, as they are slightly poisonous. Custard apple with its high calories and natural sugars are great as a dessert and as a nutritious snack.",
+			"suppliedBy": "Andes Fresh Market"
+		},
+
+		{
+			"name": "Kiwi",
+			"type": "Fruit ",
+			"color": "Brown",
+			"healthBenefit": " Rich in nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium. They also have a lot of antioxidants and are a good source of fiber.Can help treat asthma,  Aids digestion, Boosts the immune system, Reduces blood clotting, Protects against vision loss",
+			"price": "0.13",
+			"currency": "USD",
+			"image": "http://www.sabzitarkaari.com/images/products/Kiwi.jpg",
+			"status": "Available",
+			"Notes": "Aloe vera may help with blood sugar management, but more research is needed. Ingesting Aloe vera supplements in the long term could also be hazardous.",
+			"suppliedBy": "Fujisawa"
+		}
+
+
+	],
+
+	"Supplier": [{
+			"name": "Yoshino",
+			"sinceWhen": "12-11-1911",
+			"city": "Gojo",
+			"speciality": "Yoshino is known for for fresh fish and delicious troipcal fruit especially persimmons",
+			"country": "Japan",
+			"contactPerson": "Lei Wulong",
+			"contactNumber": "(012)-345-6789"
+		},
+		{
+			"name": "Lakshmi Mittal Enterprises",
+			"sinceWhen": "11-06-1931",
+			"city": "Dubai",
+			"speciality": "Lakshmi Mittal Enterprises is the biggest steel producing company in the world, it also has fruit based markets across the world",
+			"country": "UAE",
+			"contactPerson": "Al Khaled",
+			"contactNumber": "(971)422-15555"
+		},
+		{
+			"name": "Farm Fresh",
+			"sinceWhen": "04-13-1989",
+			"city": "Chicago",
+			"speciality": "Farm fresh is your one stop shop for all your groecery needs",
+			"country": "USA",
+			"contactPerson": "Mike Slater",
+			"contactNumber": "(847)123-4567"
+		},
+		{
+			"name": "Limca",
+			"sinceWhen": "04-13-1977",
+			"city": "Nagpur",
+			"speciality": "Limca. It's veri veri Lime & Lemoni",
+			"country": "India",
+			"contactPerson": "Ramesh Chauhan",
+			"contactNumber": "(847)123-4567"
+		},
+		{
+			"name": "Berry Heaven",
+			"sinceWhen": "07-11-1989",
+			"city": "Mexico City",
+			"speciality": "Best Berries in Mexico",
+			"country": "Mexico",
+			"contactPerson": "Jose Fernandez",
+			"contactNumber": "(052) 551 234 5678 "
+		},
+		{
+			"name": "Asian Mart",
+			"sinceWhen": "09-01-1991",
+			"city": "Beijing",
+			"speciality": "If you want best tasting organic Blueberries, we got it!!",
+			"country": "China",
+			"contactPerson": "Chin Xin Ling",
+			"contactNumber": "(010)6552 9988"
+		},
+		{
+			"name": "Freshest Inc",
+			"sinceWhen": "01-07-1987",
+			"city": "Bratislava",
+			"speciality": "Blueberry heaven!!",
+			"country": "Slovakia",
+			"contactPerson": "Chin Xin Ling",
+			"contactNumber": "(010)6552 9988"
+		},
+
+		{
+			"name": "Junaid Brothers",
+			"sinceWhen": "01-01-1953",
+			"city": " Kashmir ",
+			"speciality": "King of Applies, Junaid Jamshed",
+			"country": "India",
+			"contactPerson": "Samir Mitlani",
+			"contactNumber": "(194) 227 2096"
+		},
+		{
+			"name": "Trupti Foods",
+			"sinceWhen": "07-05-2001",
+			"city": " Chicago",
+			"speciality": "Trupti Foods is an awesome fruit market. It has branches all over Illionois. They are known for their awesome chat and samosas.",
+			"country": "USA",
+			"contactPerson": "Rakesh Patel",
+			"contactNumber": "(773)123-4567"
+		},
+
+		{
+			"name": "Mercado marimar",
+			"sinceWhen": "04-02-1991",
+			"city": " Mexico City",
+			"speciality": "Mercado marimar is a top grocery chain in all over Mexico. It is popular due to its claim to distribute only organic fruits.",
+			"country": "Mexico",
+			"contactPerson": "Juan Felipe",
+			"contactNumber": "(052) 551 234 5678"
+		},
+		{
+			"name": "Mahindra",
+			"sinceWhen": "04-01-1979",
+			"city": " Mumbai",
+			"speciality": "Top fruit markets in india. Mahindra is also known for it's automobiles and car industry",
+			"country": "India",
+			"contactPerson": "Salim Sheikh",
+			"contactNumber": "1860 233 1407 "
+		},
+		{
+			"name": "Reliance",
+			"sinceWhen": "04-01-1979",
+			"city": " Ahmedabad",
+			"speciality": "Top fruit markets in india. Mahindra is also known for it's automobiles and car industry",
+			"country": "India",
+			"contactPerson": "Rabindranath Tagore",
+			"contactNumber": "1840 233 1437 "
+		},
+		{
+			"name": "Sun Enterprises",
+			"sinceWhen": "04-05-1992",
+			"city": " Mumbai",
+			"speciality": "Only the freshest fruit at reliable prices!",
+			"country": "India",
+			"contactPerson": "Arnab Jose",
+			"contactNumber": "4860 253 3407 "
+		},
+		{
+			"name": "Sahil Enterprises",
+			"sinceWhen": "11-01-1999",
+			"city": " Ahmedabad",
+			"speciality": "Organic fruits only. We are avaialble online to take orders and free shipping for the first 6 months for domestic orders!",
+			"country": "India",
+			"contactPerson": "Sunny bhagwat",
+			"contactNumber": "4860 253 3407 "
+		},
+
+		{
+			"name": "Chin Xin Ling Market",
+			"sinceWhen": "12-01-1967",
+			"city": " Beijing",
+			"speciality": "We deliver globally fast!! Only the freshest foods",
+			"country": "China",
+			"contactPerson": "Arnab Jose",
+			"contactNumber": "4860 253 3407 "
+		},
+
+		{
+			"name": "Al Hasan Brothers",
+			"sinceWhen": "02-06-1974",
+			"city": " Dubai",
+			"speciality": "Organic fruits only. We are avaialble online to take orders and free shipping for the first 6 months for domestic orders!",
+			"country": "UAE",
+			"contactPerson": "Suresh Pandit",
+			"contactNumber": "(971)422-15555"
+		},
+		{
+			"name": "sebastian Market",
+			"sinceWhen": "01-07-1987",
+			"city": "Bratislava",
+			"speciality": "We cater fruit juice and fresh juice all over scandinavian countries for free!",
+			"country": "Slovakia",
+			"contactPerson": "Shahrukh Khan",
+			"contactNumber": "(010)6552 9988"
+		},
+		{
+			"name": "smith Market",
+			"sinceWhen": "01-07-1987",
+			"city": "Kashmir",
+			"speciality": "We are offereing specials for delivery on fresh fruit: Free shipping to all orders placed before end of this month! Half price next month",
+			"country": "India",
+			"contactPerson": "Samir Mitlani",
+			"contactNumber": "(194) 227 2096"
+		},
+		{
+			"name": "Andes Fresh Market",
+			"sinceWhen": "04-13-1977",
+			"city": "Nagpur",
+			"speciality": "We have farmers market avaialble every weekend in summer through spring, come try fresh produce and frits",
+			"country": "India",
+			"contactPerson": "Ramesh Chauhan",
+			"contactNumber": "(847)123-4567"
+		},
+		{
+			"name": "Fujisawa",
+			"sinceWhen": "12-11-1911",
+			"city": "Gojo",
+			"speciality": "Fujisawa is one of the buiggest markets in Gojo, it is known for for fresh fish, but they also offer specials on fruit deliveries",
+			"country": "Japan",
+			"contactPerson": "Lei Wulong",
+			"contactNumber": "(012)-345-6789"
+		}
+	],
+
+	"Cities": [{
+			"name": "Gojo",
+			"state": "",
+			"country": "Japan",
+			"knownFor": "Fruits such as persimmons"
+		},
+		{
+			"name": "Dubai",
+			"state": "",
+			"country": "UAE",
+			"knownFor": "Not only for the best fruit but this city is known for having some of the tallest sky scraper buildings in the world"
+		},
+		{
+			"name": "Kashmir",
+			"state": "Capital of Kashmir",
+			"country": "India",
+			"knownFor": "Srinagar is the largest city and the summer capital of the Indian state of Jammu and Kashmir. It lies in the Kashmir Valley on the banks of the Jhelum River, a tributary of the Indus, and Dal and Anchar lakes. The city is known for its natural environment, gardens and waterfronts."
+		},
+		{
+			"name": "Chicago",
+			"state": "IL",
+			"country": "USA",
+			"knownFor": "Chicago used to have the biggest buildings in the world! Chiacgo is known for it's architecture of buildings! This city is a definite visit especially in summer! Don't miss the lake shore drive!"
+		},
+		{
+			"name": "Nagpur",
+			"state": "Maharashtra",
+			"country": "India",
+			"knownFor": "Nagpur, the winter capital of Maharashtra, and the largest and most important city in Vidarbha. We know that Nagpur is famous for its Oranges"
+		},
+		{
+			"name": "Mexico City",
+			"state": "Mexico",
+			"country": "Mexico",
+			"knownFor": "Mexico City, Mexico's largest city and the most populous metropolitan area in the Western Hemisphere, is also known as Distrito Federal, or the federal district. It is the country's economic and cultural hub, as well as home to the offices of the federal government."
+		},
+		{
+			"name": "Mumbai",
+			"state": "Maharashtra",
+			"country": "India",
+			"knownFor": "Mumbai city has many distinctive neighborhoods. The southern tip of Mumbai Island, Colaba, is known for the Gateway of India, a yellow basalt arch built in 1924 to commemorate the British presence in India. Just to the north lies the Fort Area, the site of the old British fort around which Mumbai was built. Most of all it is known for Bollywood and the most films made in the world per calendar year"
+		},
+		{
+			"name": "Ahmedabad",
+			"state": "Gujurat",
+			"country": "India",
+			"knownFor": "One of the largest city and former capital of Gujarat, Ahmedabad is also known as Amdavad. It is situated on the banks of Sabarmati river, mostly known for its tourist attractions. It is famous for its cotton textiles, street food places, diamond cutting"
+		},
+		{
+			"name": "Beijing",
+			"state": "Capital of China",
+			"country": "China",
+			"knownFor": "Beijing is a city with profound history and it has been Chinese capital since Yuan dynasty. As a result, there is a huge amount of cultural inheritance such as the Great Wall, the Palace Museum and the Temple of Heaven. Apart from the famous historical sites, Beijing is also a political and cultural center of China."
+		},
+		{
+			"name": "Bratislava",
+			"state": "Capital of Slovakia",
+			"country": "China",
+			"knownFor": "The population tripled; many new palaces, monasteries, mansions, and streets were built, and the city was the centre of social and cultural life of the region. Bratislava Kamzik Tower is higher than Space Needle in Seattle for example. This upside-down pyramid is a home to Slovak National Radio"
+		}
+	]
+
+}

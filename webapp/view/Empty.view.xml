@@ -1,0 +1,39 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ibm.fin.ar.controller.Empty"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:i="sap.suite.ui.commons.imageeditor">
+	<App>
+		<pages>
+			<Page title="Empty View">
+				<content>
+					<i:ImageEditorContainer id="editor">
+					<i:ImageEditor id="image" />
+					<i:customResizeItems>
+						<i:CustomSizeItem width="1920" height="1200" label="1920 x 1200" relative="false"/>
+						<i:CustomSizeItem width="1600" height="900" label="1600 x 900" relative="false"/>
+						<i:CustomSizeItem width="1440" height="900" label="1440 x 900" relative="false"/>
+						<i:CustomSizeItem width="1024" height="768" label="1024 x 768" relative="false"/>
+						<i:CustomSizeItem width="2" height="2" label="double size" relative="true" icon="sap-icon://resize"/>
+						<i:CustomSizeItem width="0.5" height="0.5" label="half size" relative="true" icon="sap-icon://resize"/>
+						<i:CustomSizeItem width="2" height="1" label="make wider" relative="true" icon="sap-icon://resize"/>
+						<i:CustomSizeItem width="1" height="2" label="make higher" relative="true" icon="sap-icon://resize"/>
+					</i:customResizeItems>
+					<i:customRectangleCropItems>
+						<i:CustomSizeItem width="16" height="9" label="16:9" relative="true"/>
+						<i:CustomSizeItem width="16" height="10" label="16:10" relative="true"/>
+						<i:CustomSizeItem width="1" height="1" label="1:1" relative="true"/>
+						<i:CustomSizeItem width="4" height="3" label="4:3" relative="true"/>
+						<i:CustomSizeItem width="400" height="400" label="400 x 400" relative="false"/>
+						<i:CustomSizeItem width="250" height="400" label="250 x 400" relative="false"/>
+					</i:customRectangleCropItems>
+					<i:customEllipseCropItems>
+						<i:CustomSizeItem width="1" height="1" label="1:1" relative="true"/>
+						<i:CustomSizeItem width="2" height="1" label="2:1" relative="true"/>
+						<i:CustomSizeItem width="400" height="400" label="400 x 400" relative="false"/>
+						<i:CustomSizeItem width="250" height="400" label="250 x 400" relative="false"/>
+					</i:customEllipseCropItems>
+				</i:ImageEditorContainer>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

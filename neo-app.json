@@ -1,0 +1,14 @@
+{
+	"routes":[
+		{
+			"path":"/resources",
+			"description":"end point to load sapui5 locally from webIDE",
+			"target":{
+				"type":"service",
+				"name":"sapui5",
+				"entryPath":"/resources"
+			}
+		}	
+	]
+	
+}
