@@ -12,12 +12,35 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf ibm.fin.ar.view.View1
 		 */
-		//	onInit: function() {
-		//
-		//	},
-		onNext: function(){
-			var oAppContainer = this.getView().getParent().getParent();
-			oAppContainer.to("idView2");
+			onInit: function() {
+				
+			this.oRouter = this.getOwnerComponent().getRouter();
+			this.oRouter.attachRoutePatternMatched(this._routeMatch,this);
+			
+		
+			},
+			
+			_routeMatch:function(oEvent){
+					var sPath  = oEvent.getParameter("arguments").index ;
+				if(sPath===undefined){
+					
+					this.byId("idList").removeSelections(true);
+					
+				}
+			
+				// get list 
+				var oList  = this.byId("idList");
+				var aItems = oList.getItems();
+    			 oList.setSelectedItem(aItems[sPath]);
+				
+			},
+			
+		onNext: function(indx){
+		 //	var oAppContainer = this.getView().getParent().getParent();
+			this.oRouter.navTo("oreroy",{
+				index:indx
+			});
+		//	oAppContainer.to("idView2");
 		},
 		onDelete: function(oEvent){
 			//how do i know which item user press delete?
@@ -45,13 +68,15 @@ sap.ui.define([
 			//Get the view2 object by traversing through parent
 			//var oView2 = this.getView().getParent().getPages()[1];
 			//since our strcuture is different now, we are using splitApp
-			var oView2 = this.getView().getParent().getParent().getDetailPages()[1];
+			//var oView2 = this.getView().getParent().getParent().getDetailPages()[1];
 			//get The address of selected item -  element address
 			var sPath = selectedItem.getBindingContextPath();
+			
+			sPath = sPath.split("/")[2];
 			//whole second view should now be bound to selected item - absolute path for view 2
-			oView2.bindElement(sPath);
+			//oView2.bindElement(sPath);
 			//navigate to next page on click
-			this.onNext();
+			this.onNext(sPath);
 		}
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

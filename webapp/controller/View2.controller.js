@@ -1,8 +1,9 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageBox",
-	"sap/m/MessageToast"
-], function(Controller, MsgBox, MsgToast) {
+	"sap/m/MessageToast",
+	"sap/ui/core/routing/History"
+], function(Controller, MsgBox, MsgToast,History) {
 	"use strict";
 
 	return Controller.extend("ibm.fin.ar.controller.View2", {
@@ -12,12 +13,33 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf ibm.fin.ar.view.View2
 		 */
-		//	onInit: function() {
-		//
-		//	},
+			onInit: function() {
+				
+				this.oRouter = this.getOwnerComponent().getRouter();
+				this.oRouter.attachRoutePatternMatched(this._routeMatch,this);
+						
+						
+		
+			},
+			 _routeMatch:function(oEvent){
+			 	
+			 	var sPath  = oEvent.getParameter("arguments").index ;
+			 	
+			 	this.getView().bindElement("/fruits/"+sPath);
+			 } ,
+			
 		onBack: function(){
-			var oAppCont = this.getView().getParent();
-			oAppCont.to("idView1");
+			
+			var oHistory = History.getInstance();
+			var sPreviousHash = oHistory.getPreviousHash();
+
+			if (sPreviousHash !== undefined) {
+				window.history.go(-1);
+			} else {
+				var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+				oRouter.navTo("", true);
+			}
+		
 		},
 		onSelect: function(oEvent){
 			var oComboControl = oEvent.getSource();

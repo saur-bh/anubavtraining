@@ -13,22 +13,22 @@ sap.ui.define([
 		 */
 		onInit: function() {
 			
-			var oView1 = new sap.ui.view("idView1",{
-				viewName: "ibm.fin.ar.view.View1",
-				type: sap.ui.core.mvc.ViewType.XML
-			});
-			var oView2 = new sap.ui.view("idView2",{
-				viewName: "ibm.fin.ar.view.View2",
-				type: sap.ui.core.mvc.ViewType.XML
-			});
-			var oEmpty = new sap.ui.view("idEmpty",{
-				viewName: "ibm.fin.ar.view.Empty",
-				type: sap.ui.core.mvc.ViewType.XML
-			});
-			var oAppContainer = this.getView().byId("myApp");
+			// var oView1 = new sap.ui.view("idView1",{
+			// 	viewName: "ibm.fin.ar.view.View1",
+			// 	type: sap.ui.core.mvc.ViewType.XML
+			// });
+			// var oView2 = new sap.ui.view("idView2",{
+			// 	viewName: "ibm.fin.ar.view.View2",
+			// 	type: sap.ui.core.mvc.ViewType.XML
+			// });
+			// var oEmpty = new sap.ui.view("idEmpty",{
+			// 	viewName: "ibm.fin.ar.view.Empty",
+			// 	type: sap.ui.core.mvc.ViewType.XML
+			// });
+			// var oAppContainer = this.getView().byId("myApp");
 			
-			oAppContainer.addMasterPage(oView1);
-			oAppContainer.addDetailPage(oEmpty).addDetailPage(oView2);
+			// oAppContainer.addMasterPage(oView1);
+			// oAppContainer.addDetailPage(oEmpty).addDetailPage(oView2);
 			
 			//Create model object
 			var oModel = models.createFruitModel();
