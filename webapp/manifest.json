@@ -9,7 +9,9 @@
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"tags": {
-			"keywords": ["{{keyword1}}"]
+			"keywords": [
+				"{{keyword1}}"
+			]
 		},
 		"ach": "FIN-CORE-AR"
 	},
@@ -34,13 +36,14 @@
 			"cozy": false
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/mystyle.css",
-				"id": ""
-			}]
+			"css": [
+				{
+					"uri": "css/mystyle.css",
+					"id": ""
+				}
+			]
 		},
 		"rootView": {
-			
 			"viewName": "ibm.fin.ar.view.App",
 			"type": "XML",
 			"id": "idApp"
@@ -49,42 +52,58 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewPath": "ibm.fin.ar.view",
-				 "viewType": "XML",
-				 "controlId": "myApp"
-				
+				"viewType": "XML",
+				"controlId": "myApp"
 			},
 			"routes": [
 				{
 					"pattern": "",
 					"name": "anubhav",
-					"target":[ "donald","trumph"]
+					"target": [
+						"donald",
+						"trumph"
+					]
 				},
 				{
 					"pattern": "fruitDetail/{index}",
 					"name": "oreroy",
-					"target":[ "donald","putin"]
+					"target": [
+						"donald",
+						"putin"
+					]
+				},
+					{
+					"pattern": "fruitDetail/{index}/Supplier/{sindex}",
+					"name": "supplierDetail",
+					"target": [
+						"donald",
+						"SupplierDetail"
+					]
 				}
-				
-				],
+			],
 			"targets": {
-				
-				"donald":{
+				"donald": {
 					"viewName": "View1",
 					"viewID": "idView1",
 					"controlAggregation": "masterPages"
 				},
-				"trumph":{
-				"viewName": "Empty",
+				"trumph": {
+					"viewName": "Empty",
 					"viewID": "idEmpty",
 					"controlAggregation": "detailPages"
 				},
-				"putin":{
-				"viewName": "View2",
+				"putin": {
+					"viewName": "View2",
 					"viewID": "idView2",
 					"controlAggregation": "detailPages"
+				},
+				"SupplierDetail": {
+					"viewType": "XML",
+					"viewID": "idSupplierDetail",
+					"viewName": "SupplierDetail",
+					"controlAggregation":"detailPages"
 				}
 			}
-
 		}
 	},
 	"sap.ui": {
@@ -95,7 +114,10 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": ["sap_bluecrystal", "sap_belize"]
+		"supportedThemes": [
+			"sap_bluecrystal",
+			"sap_belize"
+		]
 	},
 	"_version": "1.9.0"
 }

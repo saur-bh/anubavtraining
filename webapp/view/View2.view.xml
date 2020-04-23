@@ -13,7 +13,7 @@
 						<core:Fragment type="XML" fragmentName="ibm.fin.ar.fragments.simple"></core:Fragment>
 					</IconTabFilter>
 					<IconTabFilter key="idSupp" text="Suppliers" icon="sap-icon://supplier">
-						<Table id="idTable" items="{/Supplier}">
+						<Table id="idTable" items="{/Supplier}" selectionChange="onItemPressed" mode="SingleSelect">
 							<headerToolbar>
 								<Toolbar>
 									<ToolbarSpacer />

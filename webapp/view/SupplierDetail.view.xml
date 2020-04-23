@@ -1,0 +1,14 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ibm.fin.ar.controller.SupplierDetail"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+
+			<Page title="Supplier Details page">
+				<content>
+					<Label text = "{contactPerson}"></Label>
+					<Label text = "{speciality}"></Label>
+					<Button text ="goBack" press="onBack"/>
+					
+					
+				</content>
+			</Page>
+	
+</mvc:View>

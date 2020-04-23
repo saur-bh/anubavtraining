@@ -41,6 +41,17 @@ sap.ui.define([
 			}
 		
 		},
+		onItemPressed:function(oEvent){
+			
+			var selectSupple = oEvent.getParameter("listItem").getBindingContextPath();
+			var selectedFruit =	this.oRouter.getHashChanger().hash ;
+			var fruit =  selectedFruit.split("/")[1];
+			var sPath = selectSupple.split("/")[2];
+			this.oRouter.navTo("supplierDetail",{
+				sindex:sPath,
+				index:fruit
+			});
+		} ,
 		onSelect: function(oEvent){
 			var oComboControl = oEvent.getSource();
 			var items = oComboControl.getSelectedItems();
